@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C || Program</title>
+    <link rel="stylesheet" type="text/css" href="python.css">
+    
+</head>
+<body>
+  <nav class="navbar">
+    
+    <ul>
+      <li><a href="index.html">Java</a></li>
+      <li><a href="c.html">C program</a></li>
+      <li><a href="python.html">Python</a></li>
+      
+    </ul>
+  </nav><br><br>
+  <div class="content">
+    <h1>Introduction to Python</h1>
+    <p>Python is an interpreted, object-oriented, high-level programming language with dynamic semantics. It is widely used for web development, software development, mathematics, data science, and scripting.</p>
+    <ul>
+        <li><strong>Advantages:</strong>
+            <ul>
+                <li>Readability: Python's simple syntax emphasizes readability.</li>
+                <li>Productivity: No compilation step; fast edit-test-debug cycle.</li>
+                <li>Exception Handling: Errors raise exceptions, making debugging easier.</li>
+            </ul>
+        </li>
+        <li><strong>Community Support:</strong> Python has a large community and extensive standard libraries.</li>
+    </ul>
+
+    <h2>Implementation Examples</h2>
+    <ol>
+        <li>
+            <h3>Hello, World!</h3>
+            <pre><code>print("Hello, World!")</code></pre>
+        </li><br>
+        <li>
+            <h3>Check if a Number is Prime</h3>
+            <pre><code>def is_prime(n):
+    if n &lt;= 1:
+        return False
+    for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+            return False
+    return True
+
+print(is_prime(17))  # Output: True</code></pre>
+        </li><br>
+        <li>
+            <h3>Calculate Factorial</h3>
+            <pre><code>def factorial(n):
+    if n == 0:
+        return 1
+    return n * factorial(n - 1)
+
+print(factorial(5))  # Output: 120</code></pre>
+        </li>
+    </ol>
+
+    <p>Python empowers developers to build amazing things, whether you're a beginner or an expert!</p>
+
+  <p>To download C language compiler click here</p>
+     
+    <button onclick="window.location.href='https://www.python.org/downloads/';">Download now</button>
+
+</div>
+</body>
+</html>

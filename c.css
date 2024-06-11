@@ -1,0 +1,54 @@
+body{
+    background-color: pink;;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    color: white;
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: space-around;
+    padding: 3px;
+}
+
+.navbar li {
+    margin-right: 20px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar a:hover {
+    color: orange;
+}
+.content{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300px;
+    font-size: x-large;
+}
+button {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #04AA6D;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 150px;
+    height:50px;
+    font-size: large;
+  }
+  
+  button:hover {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
